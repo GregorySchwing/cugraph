@@ -281,6 +281,8 @@ set(CUGRAPH_SOURCES
     src/community/triangle_count_mg.cu
     src/traversal/k_hop_nbrs_sg.cu
     src/traversal/k_hop_nbrs_mg.cu
+    src/matching/mv_sg.cu
+    src/matching/mv_mg.cu
 )
 
 if(USE_CUGRAPH_OPS)
